@@ -1,0 +1,45 @@
+---
+title:  "Welcome to my personal site!"
+date:   2023-01-15
+permalink: /posts/2023/01/welcome/
+tags:
+  - Presentation 
+---
+
+# I am glad you are here!
+This site is intended to share news, knowledge, and general information about my interests. I will use this site to document 
+things I find interesting, but hopefully it can help someone else someday.
+
+# Tools
+## NeoVim
+When I am at home, I like to use [neovim]("https://neovim.io/") to write code and navigate folders. During my masters at [UTP]("https://www.utp.edu.co/"),
+I learned how to connect to remote servers using [PuTTY][putty], the computer resources were nice, but we only had access to a remote terminal.
+For file exchanges with the server, we used [WinSCP][winscp], modifying files or debugging used to take a long time. 
+For processing large datasets, I became used to modifying scripts directly in the remote server and running tests through command line. 
+Since [vim]("https://www.vim.org/") is natively available in most terminals, I just learned how to use it (2019). My brain just got wired with vim commands and shortcuts. 
+
+
+## VScode
+For project development, testing, and debugging I use [VScode][vscode]. I really like the out-of-the-box settings from VScode, I am definitely slower
+when using it, and the constant mouse usage is anoying, but having all functionalities (highlighting, LSP[^1], and DAP[^2]) for all languages without having 
+to configure anything yourself is really nice. Don't get me wrong, when I'm at home and have time, I still like to configure NeoVim and learn what is behind
+the scenes. It makes me appreciate VScode more.
+
+# Programming languages 
+## Python
+By default, I use Python. I am very familiar with it and proficient with numpy, pandas, and gurobipy. I like to code in an object-oriented programming way.
+
+## Julia
+Lately, I've been experimenting with Julia. Its philosophy of creating publishable packages since the beginning of the development process makes a lot of sense. 
+
+# This site
+For this site I am using the [GitHub pages][gh_pages] service and the static site generator [Jekyll][jekyll]. So far, I really like this combination.
+Everything is written in MarkDown format and Jekyll transforms it into the static website.
+
+[putty]: https://www.putty.org/
+[winscp]: https://winscp.net/eng/index.php
+[vscode]: https://code.visualstudio.com/
+[gh_pages]: https://pages.github.com/
+[jekyll]: https://jekyllrb.com/
+[^1]: Language Server Protocol.
+[^2]: Debugger Adapter Protocol.
